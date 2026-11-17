@@ -5,7 +5,7 @@
     display: block
     width: 100%
     text-align: left
-    background-color: $color-sistema-e
+    background-color: $color-primario
     padding: 15px 20px
     border-radius: 5px
     color: $color-sistema-a
@@ -49,6 +49,16 @@
         color: textColor($color-primario)
         &:before
           background-color: $color-primario
+  &.color-primario-vo
+    .tabs-a__tab
+      &:hover, &:active, &:focus
+        background-color: $color-primario-vo
+        color: $white
+      &__selected
+        background-color: $color-primario-vo
+        color: $white
+        &:before
+          background-color: $color-primario-vo
   &.color-secundario
     .tabs-a__tab
       &:hover, &:active, &:focus

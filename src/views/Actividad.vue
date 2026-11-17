@@ -1,7 +1,7 @@
 <template lang="pug">
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.overflow-hidden
       // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
       // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
       #Actividad                
