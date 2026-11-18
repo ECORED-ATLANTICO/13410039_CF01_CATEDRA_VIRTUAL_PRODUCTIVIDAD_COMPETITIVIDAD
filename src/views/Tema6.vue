@@ -89,7 +89,7 @@
     .bg_img_14.mb-3
 
       .row.justify-content-center.cursor-pointer.mb-5
-        .col-11.col-md-9.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
+        .col-11.col-md-9.col-lg-6.col-xl-4.mb-4.mb-lg-3(data-aos="zoom-in-right")
           .crd_hover_txt
             .crd_hover_txt--img
               figure
@@ -98,7 +98,7 @@
               h4.mb-3 Planeación estratégica
               p.mb-0  Establece el rumbo general de la organización a largo plazo, considerando su misión, visión, objetivos y condiciones del entorno empresarial.
               p.mb-0 Ejemplo: una empresa de alimentos proyecta ingresar a tres nuevos mercados regionales durante los próximos cinco años.
-        .col-11.col-md-9.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
+        .col-11.col-md-9.col-lg-6.col-xl-4.mb-4.mb-lg-3(data-aos="zoom-in-right")
           .crd_hover_txt
             .crd_hover_txt--img
               figure
@@ -107,7 +107,7 @@
               h4.mb-3 Planeación táctica
               p.mb-0 Define planes y acciones para las diferentes áreas de la empresa, orientados al cumplimiento de los objetivos estratégicos en el mediano plazo.
               p.mb-0 Ejemplo: el área de mercadeo diseña un plan anual de promoción y posicionamiento para apoyar la expansión comercial.
-        .col-11.col-md-9.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
+        .col-11.col-md-9.col-lg-6.col-xl-4.mb-4.mb-lg-3(data-aos="zoom-in-right")
           .crd_hover_txt
             .crd_hover_txt--img
               figure

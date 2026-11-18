@@ -19,410 +19,616 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Fortaleciendo la planeación estratégica.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar Evaluar la comprensión de los conceptos, principios y relaciones desarrollados en el Componente Formativo, mediante la identificación, comprensión y aplicación conceptual de los fundamentos de la planeación estratégica, la competitividad y el análisis del mercado.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué representa la competitividad para una organización?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'La capacidad para responder estratégicamente al mercado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'La cantidad de productos comercializados anualmente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El número de clientes registrados oficialmente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La ubicación física de la organización.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Ha acertado la respuesta!',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto: '¿Cuál es el propósito del diagnóstico del mercado?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar inmediatamente las ventas organizacionales.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Analizar información para orientar decisiones estratégicas.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Definir procesos administrativos internos exclusivamente.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Controlar las actividades de producción empresarial.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
-        },
-        {
-          id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: '¿Qué analiza principalmente el análisis interno empresarial?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Las condiciones políticas del entorno comercial.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'El comportamiento de la competencia internacional.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto: 'Las capacidades propias de la organización.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Los sistemas externos de distribución comercial.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: '¿Qué orienta el direccionamiento estratégico organizacional?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'La clasificación de los segmentos comerciales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'La distribución física de los productos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto: 'El comportamiento general del mercado.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto: 'Las decisiones y acciones organizacionales.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Cuál elemento fortalece la formulación de objetivos de mercadeo?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+              texto: 'La planeación estratégica organizacional.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'La ubicación geográfica empresarial.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'El diseño del producto comercial.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'La capacidad instalada productiva.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué refleja la ventaja competitiva en una organización?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'La clasificación de sus productos comerciales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'Los atributos que la diferencian del mercado.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'El volumen anual de su producción.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'La cantidad de empleados vinculados.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: '¿Qué permite identificar el análisis del mercado?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Oportunidades para orientar estrategias comerciales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
+              texto: 'Cambios en la estructura organizacional.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
+              texto: 'Condiciones del entorno y oportunidades.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Procesos internos de la organización.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Qué elemento pertenece a los factores externos?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'La productividad de la organización.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'El valor generado en procesos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El aprovechamiento de recursos internos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'La competencia nacional e internacional.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: '¿Qué representa la productividad para la organización?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'La capacidad para aprovechar sus recursos.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'El comportamiento de la oferta comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El crecimiento de los mercados externos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La estructura del sistema distributivo.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: '¿Qué integra la planeación estratégica organizacional?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Solamente las acciones comerciales futuras.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El análisis y las acciones estratégicas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Únicamente los recursos financieros disponibles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Los procesos productivos de la empresa.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Cuál es el propósito de segmentar un mercado?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Incrementar el número de competidores.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Organizar grupos con características comunes.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Controlar los procesos de distribución.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir las actividades de planeación.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Qué caracteriza a un segmento objetivo?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Reúne organizaciones del mismo sector.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Corresponde a mercados internacionales únicamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Orienta las estrategias de mercadeo organizacionales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Define los recursos internos disponibles.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: '¿Qué finalidad tienen los sistemas de distribución?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Facilitar el acceso del mercado a la oferta.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Determinar el comportamiento de la demanda.',
               esCorrecta: false,
             },
+            {
+              id: 'c',
+              texto: 'Organizar el direccionamiento estratégico empresarial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Hacer llegar productos o servicios al mercado.',
+              esCorrecta: true,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Qué analiza el clima económico del mercado?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Las condiciones económicas del entorno.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Las fortalezas internas organizacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Las etapas del proceso productivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Los niveles de productividad empresarial.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: '¿Cómo contribuye el <em>e-marketing</em> a la organización?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Sustituye completamente la planeación estratégica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Apoya las estrategias mediante medios digitales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reemplaza el análisis del mercado realizado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Elimina la necesidad de segmentar mercados.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Ha acertado la respuesta!',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué orienta el clima político en el análisis estratégico?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Las condiciones políticas del entorno.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Los procesos internos de producción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La clasificación de los clientes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El potencial de ventas organizacional.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto: '¡Ha acertado la respuesta!',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Qué permite estimar el pronóstico de ventas?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La productividad de los procesos internos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Los resultados comerciales esperados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La estructura del mercado objetivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Las condiciones del clima social.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Ha acertado la respuesta!',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué deben considerar las estrategias de mercadeo?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Únicamente la oferta disponible.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Solo la capacidad productiva.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Segmentos, mercado y objetivos organizacionales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Exclusivamente los recursos financieros.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Ha acertado la respuesta!',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué fortalece el valor generado para los clientes?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El comportamiento de la competencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La participación en mercados externos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El desarrollo de procesos administrativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La relación entre organización y mercado.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Ha acertado la respuesta!',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué integra el <em>e-marketing</em> dentro de la organización?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Las acciones digitales del mercadeo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Los procesos de producción empresarial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Las actividades del análisis financiero.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Los sistemas de control administrativo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Ha acertado la respuesta!',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],

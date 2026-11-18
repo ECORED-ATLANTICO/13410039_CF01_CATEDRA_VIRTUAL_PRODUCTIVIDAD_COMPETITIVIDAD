@@ -43,7 +43,7 @@
       h5 Figura 3.
       |    Diferencias entre análisis externo y análisis interno
     figure.mb-5(data-aos="flip-left")
-      img(src='@/assets/curso/tema4/img_5.svg', class="img-fluid ").mb-5
+      img(src='@/assets/curso/tema4/img_5.svg', class="img-fluid", alt="La figura presenta una comparación entre el análisis externo y el interno de una empresa, mediante dos columnas diferenciadas por colores azul y verde. Cada sección contiene un encabezado, cuatro recuadros informativos e íconos representativos. Esta organización visual permite comprender cómo el estudio del entorno y la evaluación de las capacidades empresariales se complementan en el diagnóstico estratégico. Además, destaca la importancia de integrar ambas perspectivas para identificar oportunidades, reconocer aspectos de mejora y orientar decisiones que fortalezcan la competitividad organizacional.").mb-5
 
     .subtitulo-destacado.mb-5
       .subtitulo-destacado__fondo
@@ -107,7 +107,7 @@
       h5 Figura 4.
       |    Analisis comparativo entre productividad y competitividad
     figure.mb-5(data-aos="flip-left")
-      img(src='@/assets/curso/tema4/img_11.svg', class="img-fluid ").mb-5
+      img(src='@/assets/curso/tema4/img_11.svg', class="img-fluid", alt="La figura presenta una comparación entre productividad y competitividad mediante dos columnas diferenciadas por colores azul y verde. En la parte superior se incluyen fotografías de contextos empresariales, mientras que los recuadros inferiores contienen íconos y descripciones que permiten identificar sus características y diferencias. Esta organización facilita comprender cómo el aprovechamiento de los recursos y el posicionamiento en el mercado se relacionan con el desempeño empresarial, destacando su importancia para fortalecer la gestión, generar valor y orientar decisiones estratégicas organizacionales.").mb-5
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-10.mb-5(data-aos="zoom-in-right")

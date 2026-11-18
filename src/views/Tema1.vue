@@ -65,8 +65,8 @@
       h5 Figura 1.
       |    Factores que influyen en la competitividad organizacional
     figure.mb-0(data-aos="flip-left")
-      img(src='@/assets/curso/tema1/img_9.svg', class="img-fluid d-none d-lg-block").mb-0
-      img(src='@/assets/curso/tema1/img_10.svg', class="img-fluid d-block d-lg-none").mb-0
+      img(src='@/assets/curso/tema1/img_9.svg', class="img-fluid d-none d-lg-block", alt="La figura presenta los factores que influyen en la competitividad organizacional mediante una estructura comparativa que distingue las condiciones externas de las capacidades internas de una empresa. Su diseño está compuesto por dos columnas, organizadas en recuadros con colores diferenciados, íconos representativos y descripciones breves que facilitan la interpretación de la información. Esta distribución permite comprender cómo las circunstancias del mercado y los recursos propios de la organización inciden en su desempeño, capacidad de adaptación y generación de valor. Asimismo, destaca la importancia de analizar ambos grupos de factores para identificar oportunidades de mejora, fortalecer la toma de decisiones estratégicas y alcanzar una posición competitiva sostenible.").mb-0
+      img(src='@/assets/curso/tema1/img_10.svg', class="img-fluid d-block d-lg-none", alt="La figura presenta los factores que influyen en la competitividad organizacional mediante una estructura comparativa que distingue las condiciones externas de las capacidades internas de una empresa. Su diseño está compuesto por dos columnas, organizadas en recuadros con colores diferenciados, íconos representativos y descripciones breves que facilitan la interpretación de la información. Esta distribución permite comprender cómo las circunstancias del mercado y los recursos propios de la organización inciden en su desempeño, capacidad de adaptación y generación de valor. Asimismo, destaca la importancia de analizar ambos grupos de factores para identificar oportunidades de mejora, fortalecer la toma de decisiones estratégicas y alcanzar una posición competitiva sostenible.").mb-0
 
     .bg_img_2.mb-3
 

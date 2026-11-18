@@ -43,7 +43,7 @@
           p.mb-0 La selección de las alternativas de distribución requiere analizar diferentes criterios que permitan determinar cómo hacer llegar los productos o servicios al mercado de manera eficiente. Esta evaluación facilita identificar las opciones más adecuadas según las características de los clientes, las capacidades de la organización y los objetivos de mercadeo, contribuyendo al fortalecimiento de la competitividad empresarial.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-10.mb-5
+      .col-12.col-lg-12.col-xl-10.mb-5
         SlyderF.circl-arrow.mb-0(columnas="col-12 col-lg-4")
           .tarjeta.color-primario-v.border.shadow.p-4.mb-0
             .row.justify-content-center.mb-3
@@ -208,7 +208,7 @@
       .col-12.col-lg-9
         p.mb-4(data-aos="zoom-in-right") La implementación de las estrategias de mercadeo requiere comprender tanto la forma en que los productos o servicios llegarán al mercado como las condiciones externas que pueden influir en dicho proceso. El análisis de los sistemas de distribución y del clima político, económico y social fortalece la capacidad de la organización para orientar sus decisiones de manera coherente con el entorno.
         .tarjeta.tarjeta--fondo-img-11.py-4.px-5.mb-4
-          p.mb-0 Una vez comprendidos estos elementos, el componente concluye con el estudio del e-marketing, herramienta que integra los conocimientos desarrollados durante el proceso formativo y evidencia cómo las tecnologías digitales apoyan la implementación de estrategias de mercadeo acordes con el direccionamiento estratégico y las condiciones del mercado.
+          p.mb-0 Una vez comprendidos estos elementos, el componente concluye con el estudio del <em>e-marketing</em>, herramienta que integra los conocimientos desarrollados durante el proceso formativo y evidencia cómo las tecnologías digitales apoyan la implementación de estrategias de mercadeo acordes con el direccionamiento estratégico y las condiciones del mercado.
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-10.mb-0

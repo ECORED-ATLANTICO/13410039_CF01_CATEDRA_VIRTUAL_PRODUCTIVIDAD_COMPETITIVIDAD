@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Fundamentos estratégicos de mercadeo',
     Description:
-      'BREVE DESCRIPCIÓN	Este componente desarrolla los fundamentos de la competitividad y la planeación estratégica como base para la formulación de estrategias de mercadeo. El aprendiz comprenderá la relación entre el diagnóstico del mercado, el análisis del entorno, el direccionamiento estratégico, la segmentación, los sistemas de distribución y el e-marketing, fortaleciendo su capacidad para interpretar información y orientar decisiones estratégicas en contextos organizacionales.',
+      'BREVE DESCRIPCIÓN	Este componente desarrolla los fundamentos de la competitividad y la planeación estratégica como base para la formulación de estrategias de mercadeo. El aprendiz comprenderá la relación entre el diagnóstico del mercado, el análisis del entorno, el direccionamiento estratégico, la segmentación, los sistemas de distribución y el <em>e-marketing</em>, fortaleciendo su capacidad para interpretar información y orientar decisiones estratégicas en contextos organizacionales.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [],
@@ -208,12 +208,12 @@ export default {
       {
         nombreRuta: 'tema9',
         numero: '9',
-        titulo: 'E-marketing',
+        titulo: '<em>E-marketing</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '9.1',
-            titulo: 'Propósito del e-marketing',
+            titulo: 'Propósito del <em>e-marketing</em>',
             hash: 't_9_1',
           },
           {
@@ -272,14 +272,81 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Análisis interno',
+      significado:
+        'Evaluación de las capacidades y condiciones propias de la organización para apoyar la toma de decisiones estratégicas.',
+    },
+    {
+      termino: 'Competitividad',
+      significado:
+        'Capacidad de una organización para fortalecer su posición en el mercado mediante decisiones estratégicas y aprovechamiento de sus recursos.',
+    },
+    {
+      termino: 'Demanda',
+      significado:
+        'Cantidad de bienes o servicios que los consumidores requieren en un mercado bajo determinadas condiciones.',
+    },
+    {
+      termino: 'Diagnóstico del mercado',
+      significado:
+        'Proceso de análisis que permite comprender las condiciones del entorno para orientar decisiones de mercadeo.',
+    },
+    {
+      termino: 'Direccionamiento estratégico',
+      significado:
+        'Proceso mediante el cual la organización define el rumbo que orientará sus decisiones y objetivos.',
+    },
+    {
+      termino: '<em>E-marketing</em>',
+      significado:
+        'Aplicación de medios digitales para apoyar la implementación de estrategias de mercadeo alineadas con los objetivos organizacionales.',
+    },
+    {
+      termino: 'Oferta',
+      significado:
+        'Conjunto de bienes o servicios que las organizaciones ponen a disposición del mercado para satisfacer necesidades.',
+    },
+    {
+      termino: 'Planeación estratégica',
+      significado:
+        'Proceso de organización de acciones orientadas al logro de los objetivos establecidos por la organización.',
+    },
+    {
+      termino: 'Productividad',
+      significado:
+        'Capacidad de la organización para desarrollar sus actividades mediante el aprovechamiento eficiente de sus recursos.',
+    },
+    {
+      termino: 'Segmentación del mercado',
+      significado:
+        'Proceso de clasificación del mercado en grupos con características comunes para orientar estrategias de mercadeo.',
     },
   ],
   referencias: [
     {
-      referencia: 'REF',
-      link: 'LINK',
+      referencia:
+        'Arnoletto, E. J. (2007). Administración de la producción como ventaja competitiva. Eumed.net. Recuperado de:',
+      link: 'https://www.eumed.net/libros-gratis/2007b/299/299.pdf',
+    },
+    {
+      referencia:
+        'Gudziol Vidal, J. A. (1999). Mercadeo, competitividad y sostenibilidad. Estudios Gerenciales, 15(73), 61–74. Redalyc. Recuperado de:',
+      link: 'https://www.redalyc.org/pdf/212/21207306.pdf',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje (SENA). (1996). Estrategia de <em>marketing</em>. Repositorio Institucional SENA. Recuperado de:',
+      link: 'https://repositorio.sena.edu.co/handle/11404/1043',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje (SENA). (2007). Plan de mercadeo / estrategias de comercialización. Repositorio Institucional SENA. Recuperado de:',
+      link: 'https://repositorio.sena.edu.co/bitstream/handle/11404/1576/sere5.pdf?sequence=12&isAllowed=y',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje (SENA). (s. f.). Planeación estratégica. Repositorio Institucional SENA. Recuperado de:',
+      link: 'https://repositorio.sena.edu.co/handle/11404/5993',
     },
   ],
   creditos: [
@@ -303,18 +370,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Nicolás Cruz Ríos',
+          cargo: 'Experto Temático',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jair Coll Gallardo',
+          cargo: 'Evaluador Instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -323,12 +385,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Carmen Alicia Martinez Torres',
+          cargo: 'Diseñadora de contenidos',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Alexander Donado Molinares',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -349,12 +411,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -364,7 +426,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

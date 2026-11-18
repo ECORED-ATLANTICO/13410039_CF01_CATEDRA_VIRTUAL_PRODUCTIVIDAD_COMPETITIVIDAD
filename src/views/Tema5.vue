@@ -33,8 +33,8 @@
         h5 Figura 5.
         |    Elementos que sustentan el direccionamiento estratégico
       figure.mb-5(data-aos="flip-left")
-        img(src='@/assets/curso/tema5/img_5.svg', class="img-fluid d-none d-lg-block").mb-5
-        img(src='@/assets/curso/tema5/img_6.svg', class="img-fluid d-block d-lg-none").mb-5
+        img(src='@/assets/curso/tema5/img_5.svg', class="img-fluid d-none d-lg-block", alt="La figura presenta un esquema radial de los elementos que sustentan el direccionamiento estratégico. En el centro aparece el concepto principal, rodeado por cuatro recuadros conectados mediante líneas de colores. Cada sección contiene un encabezado, un ícono, una fotografía y una breve descripción. Esta organización permite comprender cómo los diferentes elementos se relacionan para orientar decisiones, fortalecer la planificación empresarial, responder a las condiciones del mercado y alcanzar los objetivos organizacionales establecidos.").mb-5
+        img(src='@/assets/curso/tema5/img_6.svg', class="img-fluid d-block d-lg-none", alt="La figura presenta un esquema radial de los elementos que sustentan el direccionamiento estratégico. En el centro aparece el concepto principal, rodeado por cuatro recuadros conectados mediante líneas de colores. Cada sección contiene un encabezado, un ícono, una fotografía y una breve descripción. Esta organización permite comprender cómo los diferentes elementos se relacionan para orientar decisiones, fortalecer la planificación empresarial, responder a las condiciones del mercado y alcanzar los objetivos organizacionales establecidos.").mb-5
 
     Separador
 
@@ -75,7 +75,7 @@
     .bg_img_12.mb-3
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-10.mb-5
+        .col-12.col-lg-12.col-xl-10.mb-5
           SlyderF.circl-arrow.mb-0(columnas="col-12 col-lg-4")
             .tarjeta.color-primario-v.border.shadow.p-4.mb-0
               .row.justify-content-center.mb-3
@@ -113,7 +113,7 @@
         p.mb-0(data-aos="zoom-in-right") Los objetivos organizacionales se establecen en diferentes niveles para orientar las decisiones y actividades de la empresa, desde su direccionamiento general hasta la ejecución de tareas específicas. En este sentido, los objetivos estratégicos, tácticos y operativos permiten coordinar esfuerzos, definir prioridades y organizar los recursos disponibles para alcanzar los resultados propuestos.
 
     .row.justify-content-center.cursor-pointer.mb-5
-      .col-11.col-md-9.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
+      .col-11.col-md-9.col-lg-6.col-xl-4.mb-4.mb-lg-3(data-aos="zoom-in-right")
         .crd_hover_txt
           .crd_hover_txt--img
             figure
@@ -122,7 +122,7 @@
             h4.mb-3 Estratégicos
             p.mb-0 Orientan el desarrollo general de la empresa y sus resultados a largo plazo. 
             p.mb-0 Ejemplo: incrementar la participación de mercado nacional durante los próximos tres años.
-      .col-11.col-md-9.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
+      .col-11.col-md-9.col-lg-6.col-xl-4.mb-4.mb-lg-3(data-aos="zoom-in-right")
         .crd_hover_txt
           .crd_hover_txt--img
             figure
@@ -131,7 +131,7 @@
             h4.mb-3 Tácticos
             p.mb-0 Traducen los objetivos estratégicos en metas específicas para las diferentes áreas organizacionales.
             p.mb-0 Ejemplo: ampliar la cobertura comercial a cinco ciudades durante el próximo año.
-      .col-11.col-md-9.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-right")
+      .col-11.col-md-9.col-lg-6.col-xl-4.mb-4.mb-lg-3(data-aos="zoom-in-right")
         .crd_hover_txt
           .crd_hover_txt--img
             figure

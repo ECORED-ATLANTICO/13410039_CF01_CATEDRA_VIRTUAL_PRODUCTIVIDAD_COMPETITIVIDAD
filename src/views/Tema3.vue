@@ -256,7 +256,7 @@
           p.mb-0 La competencia puede desarrollarse en escenarios nacionales o internacionales, dependiendo del alcance del mercado donde participa la organización. En ambos casos, su estudio facilita la identificación de condiciones que inciden en la competitividad y en la posición que ocupa la empresa dentro del mercado.
 
     .row.justify-content-center.cursor-pointer.mb-5
-      .col-11.col-md-9.col-lg-6.mb-4.mb-lg-0(data-aos="zoom-in-right")
+      .col-11.col-md-9.col-lg-8.col-xl-6.mb-4.mb-lg-3(data-aos="zoom-in-right")
         .crd_hover_txt
           .crd_hover_txt--img
             figure
@@ -265,7 +265,7 @@
             h4.mb-3 Competencia nacional
             p.mb-0 Se presenta entre empresas que comercializan productos o servicios similares dentro de un mismo país, considerando las necesidades de los consumidores y las condiciones del mercado interno. 
             p.mb-3 Ejemplo: dos cadenas de supermercados colombianas compiten mediante precios, promociones y cobertura comercial.
-      .col-11.col-md-9.col-lg-6.mb-4.mb-lg-0(data-aos="zoom-in-right")
+      .col-11.col-md-9.col-lg-8.col-xl-6.mb-4.mb-lg-3(data-aos="zoom-in-right")
         .crd_hover_txt
           .crd_hover_txt--img
             figure
@@ -278,7 +278,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-5
         p.mb-0(data-aos="zoom-in-right") La competencia empresarial está influenciada por diversos factores que determinan la capacidad de las organizaciones para atraer clientes, diferenciar sus productos y fortalecer su posición en el mercado. Analizar estos elementos permite comprender las condiciones competitivas, identificar oportunidades de mejora y orientar estrategias comerciales que favorezcan el crecimiento y la sostenibilidad empresarial.
-      .col-12.col-lg-10.col-xl-10.mb-3
+      .col-12.col-lg-12.col-xl-10.mb-3
         SlyderF.circl-arrow.mb-0(columnas="col-12 col-lg-4")
           .tarjeta.color-primario-v.border.shadow.p-4.mb-0
             .row.justify-content-center.mb-3
@@ -373,8 +373,8 @@
       h5 Figura 2.
       |    Relación entre la demanda y la oferta
     figure.mb-5(data-aos="flip-left")
-      img(src='@/assets/curso/tema3/img_35.svg', class="img-fluid d-none d-lg-block").mb-5
-      img(src='@/assets/curso/tema3/img_36.svg', class="img-fluid d-block d-lg-none").mb-5
+      img(src='@/assets/curso/tema3/img_35.svg', class="img-fluid d-none d-lg-block", alt="La figura presenta una comparación entre la demanda y la oferta mediante dos columnas diferenciadas por colores azul y verde. En la parte superior se muestran fotografías de situaciones comerciales reales, mientras que los recuadros inferiores incluyen íconos y descripciones que facilitan la comprensión de ambos conceptos. Esta organización permite reconocer la relación entre las necesidades de los consumidores y la disponibilidad de bienes y servicios, destacando su importancia para analizar el comportamiento del mercado, identificar oportunidades comerciales y orientar decisiones empresariales estratégicas. ").mb-5
+      img(src='@/assets/curso/tema3/img_36.svg', class="img-fluid d-block d-lg-none", alt="La figura presenta una comparación entre la demanda y la oferta mediante dos columnas diferenciadas por colores azul y verde. En la parte superior se muestran fotografías de situaciones comerciales reales, mientras que los recuadros inferiores incluyen íconos y descripciones que facilitan la comprensión de ambos conceptos. Esta organización permite reconocer la relación entre las necesidades de los consumidores y la disponibilidad de bienes y servicios, destacando su importancia para analizar el comportamiento del mercado, identificar oportunidades comerciales y orientar decisiones empresariales estratégicas. ").mb-5
 
     .subtitulo-destacado.mb-5
       .subtitulo-destacado__fondo
