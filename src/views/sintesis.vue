@@ -9,7 +9,7 @@
             figure.p-0.m-0.h-100
               img(src="@/assets/curso/sintesis/img_1.png" class="img-fluid w-100 h-100 object-fit-cover").p-0
           .col-12.col-xl-7.p-5
-            p.mb-0 El Componente Formativo Fundamentos estratégicos de mercadeo ofrece al aprendiz los fundamentos conceptuales necesarios para comprender la planeación estratégica como eje orientador de las decisiones de mercadeo, durante su desarrollo se analizan la competitividad, el diagnóstico del mercado, los factores externos e internos de la organización, el direccionamiento estratégico y la formulación de objetivos de mercadeo, favoreciendo la comprensión de los elementos que sustentan la toma de decisiones estratégicas en contextos organizacionales. 
+            p.mb-0 El componente formativo Fundamentos estratégicos de mercadeo ofrece al aprendiz los fundamentos conceptuales necesarios para comprender la planeación estratégica como eje orientador de las decisiones de mercadeo, durante su desarrollo se analizan la competitividad, el diagnóstico del mercado, los factores externos e internos de la organización, el direccionamiento estratégico y la formulación de objetivos de mercadeo, favoreciendo la comprensión de los elementos que sustentan la toma de decisiones estratégicas en contextos organizacionales. 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-2.col-lg-1.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in-right")

@@ -139,7 +139,7 @@
           .crd_hover_txt--body_2
             h4.mb-3 Operativos
             p.mb-0 Establecen resultados concretos para las actividades cotidianas y los procesos de trabajo. 
-            p.mb-0 Ejemplo: Incrementar un 10 % las ventas mensuales mediante acciones promocionales.
+            p.mb-0 Ejemplo: incrementar un 10 % las ventas mensuales mediante acciones promocionales.
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-10.mb-0
