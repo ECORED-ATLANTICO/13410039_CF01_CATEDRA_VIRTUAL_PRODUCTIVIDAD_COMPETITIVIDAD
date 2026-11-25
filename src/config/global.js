@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Fundamentos estratégicos de mercadeo',
     Description:
-      'BREVE DESCRIPCIÓN	Este componente desarrolla los fundamentos de la competitividad y la planeación estratégica como base para la formulación de estrategias de mercadeo. El aprendiz comprenderá la relación entre el diagnóstico del mercado, el análisis del entorno, el direccionamiento estratégico, la segmentación, los sistemas de distribución y el <em>e-marketing</em>, fortaleciendo su capacidad para interpretar información y orientar decisiones estratégicas en contextos organizacionales.',
+      'Este componente desarrolla los fundamentos de la competitividad y la planeación estratégica como base para la formulación de estrategias de mercadeo. El aprendiz comprenderá la relación entre el diagnóstico del mercado, el análisis del entorno, el direccionamiento estratégico, la segmentación, los sistemas de distribución y el <em>e-marketing</em>, fortaleciendo su capacidad para interpretar información y orientar decisiones estratégicas en contextos organizacionales.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [],
@@ -256,7 +256,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/13410039_CF01_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
