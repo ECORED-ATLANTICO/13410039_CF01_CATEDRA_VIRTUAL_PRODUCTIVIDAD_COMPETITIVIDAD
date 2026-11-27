@@ -132,8 +132,8 @@
             .col-12.col-xl-6.mt-3.mb-3.ps-3.ps-xl-5
               p.mb-3 Ir al pódcast:
               TarjetaAudio.color-secundario.p-3.mb-0(
-                texto="<span style='font-style: normal !important;'>Direccionamiento estratégico organizacional"
-                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+                texto="<span style='font-style: normal !important;'>Planeación estratégica organizacional"
+                :audio="require_src('@/assets/curso/podcast/podcast02.mp3')"
                 tiempo
               )
       .col-12.col-lg-10.mb-0
